@@ -19,7 +19,7 @@ $ npm install -g skyadmincli
 $ skycli COMMAND
 running command...
 $ skycli (-v|--version|version)
-skyadmincli/0.0.2 darwin-x64 node-v11.9.0
+skyadmincli/0.0.3 darwin-x64 node-v11.9.0
 $ skycli --help [COMMAND]
 USAGE
   $ skycli COMMAND
@@ -47,7 +47,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/hello.js](https://github.com/sky-admin/cli-demo/blob/v0.0.2/src/commands/hello.js)_
+_See code: [src/commands/hello.js](https://github.com/sky-admin/cli-demo/blob/v0.0.3/src/commands/hello.js)_
 
 ## `skycli help [COMMAND]`
 

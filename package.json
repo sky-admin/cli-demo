@@ -1,7 +1,7 @@
 {
   "name": "skyadmincli",
   "description": "a cli demo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "546485299@qq.com",
   "bin": {
     "skycli": "./bin/run"
