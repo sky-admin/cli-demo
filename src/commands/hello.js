@@ -8,9 +8,12 @@ class HelloCommand extends Command {
     const name = flags.name || 'world'
     this.log(`hello ${name} from ./src/commands/hello.js`)
     try {
-      update = await checkForUpdate(pkg);
+      const update = await checkForUpdate(pkg)
+      if (update) {
+        console.log(`The latest version is ${update.latest}. Please update!`);
+      }
     } catch (err) {
-      console.error(`Failed to check for updates: ${err}`);
+      console.error(`Failed to check for updates: ${err}`)
     }
   }
 }
