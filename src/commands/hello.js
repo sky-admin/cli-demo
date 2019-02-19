@@ -1,5 +1,5 @@
 const {Command, flags} = require('@oclif/command')
-const pkg = require('./package')
+const pkg = require('../../package')
 const checkForUpdate = require('update-check')
 
 class HelloCommand extends Command {
