@@ -1,0 +1,48 @@
+{
+  "name": "skyadmincli",
+  "description": "a cli demo",
+  "version": "0.0.0",
+  "author": "546485299@qq.com",
+  "bin": {
+    "skycli": "./bin/run"
+  },
+  "bugs": "https://github.com/sky-admin/cli-demo/issues",
+  "dependencies": {
+    "@oclif/command": "^1.5.10",
+    "@oclif/config": "^1.12.6",
+    "@oclif/plugin-help": "^2.1.6"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.21.0",
+    "globby": "^8.0.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json",
+    "/src"
+  ],
+  "homepage": "https://github.com/sky-admin/cli-demo",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "commands": "./src/commands",
+    "bin": "skycli",
+    "plugins": [
+      "@oclif/plugin-help"
+    ]
+  },
+  "repository": "sky-admin/cli-demo",
+  "scripts": {
+    "postpack": "rm -f oclif.manifest.json",
+    "prepack": "oclif-dev manifest && oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
