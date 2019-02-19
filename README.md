@@ -19,7 +19,7 @@ $ npm install -g skyadmincli
 $ skycli COMMAND
 running command...
 $ skycli (-v|--version|version)
-cli-demo/0.0.0 darwin-x64 node-v11.9.0
+skyadmincli/0.0.0 darwin-x64 node-v11.9.0
 $ skycli --help [COMMAND]
 USAGE
   $ skycli COMMAND
@@ -28,10 +28,7 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-- [skyadmincli](#skyadmincli)
-- [Usage](#usage)
-- [Commands](#commands)
-  - [`skycli help [COMMAND]`](#skycli-help-command)
+* [`skycli help [COMMAND]`](#skycli-help-command)
 
 ## `skycli help [COMMAND]`
 
