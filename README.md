@@ -19,7 +19,7 @@ $ npm install -g skyadmincli
 $ skycli COMMAND
 running command...
 $ skycli (-v|--version|version)
-skyadmincli/0.0.1 darwin-x64 node-v11.9.0
+skyadmincli/0.0.2 darwin-x64 node-v11.9.0
 $ skycli --help [COMMAND]
 USAGE
   $ skycli COMMAND
@@ -28,7 +28,26 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`skycli hello`](#skycli-hello)
 * [`skycli help [COMMAND]`](#skycli-help-command)
+
+## `skycli hello`
+
+Describe the command here
+
+```
+USAGE
+  $ skycli hello
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/hello.js](https://github.com/sky-admin/cli-demo/blob/v0.0.2/src/commands/hello.js)_
 
 ## `skycli help [COMMAND]`
 
